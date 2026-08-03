@@ -6,7 +6,7 @@ import {
   Layers, ChevronRight, Mail, Phone, MapPin
 } from "lucide-react";
 
-// એનિમેશન સ્મૂધ રીવીલ ઇફેક્ટ માટે વેરિઅન્ટ્સ
+
 const fadeIn = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
@@ -21,11 +21,11 @@ export default function Home() {
   return (
     <div className="bg-[#030712] text-white min-h-screen font-sans antialiased selection:bg-indigo-500 selection:text-white">
       
-      {/* ગ્લોઇંગ બેકગ્રાઉન્ડ ઇફેક્ટ્સ */}
+      
       <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-indigo-500/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute top-[1200px] right-1/4 w-[600px] h-[600px] bg-purple-500/5 rounded-full blur-[150px] pointer-events-none" />
 
-      {/* 1. HERO SECTION */}
+      {/* HERO SECTION */}
       <section className="relative min-h-screen flex flex-col justify-center items-center text-center px-4 max-w-5xl mx-auto pt-20">
         <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
@@ -71,7 +71,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* 2. FEATURES SECTION */}
+      {/* FEATURES SECTION */}
       <section className="py-32 px-6 max-w-7xl mx-auto relative border-t border-slate-900">
         <div className="text-center mb-20">
           <h2 className="text-3xl sm:text-5xl font-bold tracking-tight">One Platform. Zero Chaos.</h2>
@@ -85,7 +85,7 @@ export default function Home() {
           viewport={{ once: true, margin: "-100px" }}
           className="grid md:grid-cols-3 gap-8"
         >
-          {/* Card 1: Lead Management */}
+          {/* Lead Management */}
           <motion.div variants={fadeIn} whileHover={{ y: -8 }} className="bg-slate-900/30 border border-slate-800/80 p-8 rounded-2xl backdrop-blur-sm hover:border-indigo-500/30 transition-all duration-300">
             <div className="w-12 h-12 bg-indigo-500/10 rounded-xl flex items-center justify-center border border-indigo-500/20 mb-6">
               <Zap className="w-6 h-6 text-indigo-400" />
@@ -94,7 +94,7 @@ export default function Home() {
             <p className="text-slate-400 leading-relaxed font-light">Capture potential clients instantly, track status dynamically, and automate targeted follow-ups to close deals faster.</p>
           </motion.div>
 
-          {/* Card 2: HRMS */}
+          {/*  HRMS */}
           <motion.div variants={fadeIn} whileHover={{ y: -8 }} className="bg-slate-900/30 border border-slate-800/80 p-8 rounded-2xl backdrop-blur-sm hover:border-emerald-500/30 transition-all duration-300">
             <div className="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center border border-emerald-500/20 mb-6">
               <Users className="w-6 h-6 text-emerald-400" />
@@ -103,7 +103,7 @@ export default function Home() {
             <p className="text-slate-400 leading-relaxed font-light">Efficiently manage your expanding workforce, handle daily biometric or digital attendance, and streamline internal HR approval workflows.</p>
           </motion.div>
 
-          {/* Card 3: Invoicing */}
+          {/*  Invoicing */}
           <motion.div variants={fadeIn} whileHover={{ y: -8 }} className="bg-slate-900/30 border border-slate-800/80 p-8 rounded-2xl backdrop-blur-sm hover:border-pink-500/30 transition-all duration-300">
             <div className="w-12 h-12 bg-pink-500/10 rounded-xl flex items-center justify-center border border-pink-500/20 mb-6">
               <FileText className="w-6 h-6 text-pink-400" />
@@ -113,7 +113,7 @@ export default function Home() {
           </motion.div>
         </motion.div>
       </section>
-      {/* 3. INTEGRATIONS / CONNECTORS SECTION */}
+      {/*  INTEGRATIONS / CONNECTORS SECTION */}
       <section className="py-32 bg-slate-950/40 border-y border-slate-900 px-6 relative overflow-hidden">
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -162,7 +162,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. WHY CHOOSE US SECTION */}
+      {/*  WHY CHOOSE US SECTION */}
       <section className="py-32 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="text-3xl sm:text-5xl font-bold tracking-tight">Built For Serious High Growth</h2>
@@ -196,7 +196,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. CONTACT US SECTION */}
+      {/*  CONTACT US SECTION */}
       <section className="py-32 px-6 max-w-6xl mx-auto relative">
         <div className="absolute bottom-12 left-1/3 w-[400px] h-[400px] bg-indigo-600/5 rounded-full blur-[100px] pointer-events-none" />
         
