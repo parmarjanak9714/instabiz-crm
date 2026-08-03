@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 360° CRM Product Marketing Website
 
-## Getting Started
+A premium, production-grade marketing landing page for a comprehensive 360° CRM platform. Built with **Next.js**, **Framer Motion**, and **Tailwind CSS** to deliver high-utility features and ultra-smooth layout animations.
 
-First, run the development server:
+## 🌐 Project Links
+- **Live Demo (Vercel):** [https://instabiz-crm.vercel.app/]
+- **Loom Walkthrough Video:** https://www.loom.com/share/2dc37d3eb85d417db6e6431e4fb8a5b2
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📋 Features Implemented
+- **Hero Section:** High-converting layout with premium dark mode aesthetic and animated core CTA.
+- **Modules Showcased:** Detail-oriented layout sections covering Lead Management, Advanced HRMS Workflows, and Smart Invoicing pipelines.
+- **Universal Integrations:** An interactive grid component displaying multi-channel connectors like Facebook Lead Ads, IndiaMART, 99acres, and Housing.com.
+- **Key Benefits Grid:** Highlighting enterprise-grade system security, uptime guarantees, and infinite cloud scaling properties.
+- **Contact & Booking System:** Fully production-ready data forms to request customized application walk-throughs.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack & Micro-interactions
+- **Framework:** Next.js (App Router layout configuration)
+- **Styling:** Tailwind CSS (Fluid responsive configurations across mobile & desktop breakpoints)
+- **Animations:** Framer Motion (Scroll-driven entrance reveals, staggered grid rendering, and dynamic card translation transformations on hover actions)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧰 Development Metrics
+- **Approximate Time Taken:** 8 Hours
+- **AI Tooling Ecosystem:** ChatGPT, Cursor AI (leveraged to implement rapid scaffolding and optimal component compilation workflows)
